@@ -1,0 +1,40 @@
+
+
+ul.nav {  /* select <ul> of class nav*/
+    padding-left: 0px;
+    background-color: #3D99CE;
+    text-align: center;
+  }
+
+  ul.nav > li { /*select direct <li> children of ul.nav*/
+    display: inline-block; /*modify display behaviour of <li> */
+    color: white;
+    padding: 10px 20px;
+  }
+
+  ul.nav > li:hover { /* pseudo-class, specific stat of an element*/
+    background-color: #2779BF;
+  }
+
+
+  p span { /* Any <span>, including nested, within <p> */
+      color: orange;
+      border: 2px solid black;
+  }
+
+  a {
+      color:palegreen;
+  }
+
+  #content {
+    width: 640px;
+    height: 480px;
+    margin-left:50px;
+    border: 2px solid black;
+
+  }
+
+
+
+
+
