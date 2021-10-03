@@ -8,11 +8,24 @@ ul.nav {  /* select <ul> of class nav*/
 
   ul.nav > li { /*select direct <li> children of ul.nav*/
     display: inline-block; /*modify display behaviour of <li> */
+    /*
+    Compared to display: inline, the major difference is that 
+    display: inline-block allows to set a width and height on the element.
+    Also, with display: inline-block, 
+    the top and bottom margins/paddings are respected, 
+    but with display: inline they are not.
+    
+    Compared to display: block, the major difference is that 
+    display: inline-block does not add a line-break after the element, 
+    so the element can sit next to other elements.
+  */
     color: white;
     padding: 10px 20px;
+    border:2px solid black;
+    margin-top:10px;
   }
 
-  ul.nav > li:hover { /* pseudo-class, specific stat of an element*/
+  ul.nav > li:hover { /* pseudo-class, specific status of an element*/
     background-color: #2779BF;
   }
 
